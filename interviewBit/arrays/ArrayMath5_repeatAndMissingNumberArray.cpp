@@ -1,5 +1,5 @@
 vector<int> Solution::repeatedNumber(const vector<int> &a) {
-    / *************** O(n) solution but memory != O(1) ***************** /
+    /*************** O(n) solution but memory != O(1) ***************** 
     
     
     int n = a.size();
@@ -20,7 +20,7 @@ vector<int> Solution::repeatedNumber(const vector<int> &a) {
     res.push_back(sum2-sum1);
     return res;
     
-    / ******************************************************************** /
+     ********************************************************************/
     
     
     
